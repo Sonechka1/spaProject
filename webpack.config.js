@@ -14,6 +14,13 @@ module.exports = {
 		static: {
 			directory: path.join(__dirname, 'dist'),
 		},
+
+
+		host: '0.0.0.0', // или ваш публичный адрес
+        port: 4000, // или любой другой порт
+        allowedHosts: 'all', 
+
+
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
