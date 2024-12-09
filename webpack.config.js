@@ -14,10 +14,8 @@ module.exports = {
 		static: {
 			directory: path.join(__dirname, 'dist'),
 		},
-
-
-		host: '0.0.0.0', // или ваш публичный адрес
-        port: 4000, // или любой другой порт
+		host: '0.0.0.0', 
+        port: 4000, 
         allowedHosts: 'all', 
 
 
